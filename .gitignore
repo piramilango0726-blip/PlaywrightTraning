@@ -1,0 +1,20 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Reports and generated output
+allure-report/
+allure-results/
+reports/
+
+# Sensitive / large files
+state.json
+jenkins.war
+.env
+
+# Screenshots (remove this line if you want to keep them)
+*.png
