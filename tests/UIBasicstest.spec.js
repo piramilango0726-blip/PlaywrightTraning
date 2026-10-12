@@ -11,7 +11,7 @@ const { url } = require("node:inspector");
 
 // });
 
-test.only("Browser context Playwright test", async ({ browser }) => {
+test("Browser context Playwright test", async ({ browser }) => {
   const context = await browser.newContext(); //Explain Proxy, plugins, Browser details will be updated in config file
   const page = await context.newPage();
 
