@@ -1,14 +1,7 @@
 ﻿import { expect, test } from "@playwright/test";
 import { POManager } from "../pageobjects_TS/POManager";
 import { customtest } from "../utils_ts/test-base";
-
-
-
-
-//JSON --> String --> JS Object
-const dataSet = JSON.parse(
-  JSON.stringify(require("../utils/PlaceOrderTestData.json")),
-);
+import dataSet from "../utils/PlaceOrderTestData.json";
 
 for (const data of dataSet) {
   test(`@web Browser context validating login for ${data.productName}`, async ({
