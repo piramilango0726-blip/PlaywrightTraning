@@ -62,6 +62,6 @@ customtest(`Custom test`, async ({ page, testDataForOrder }) => {
   expect(orderId.includes(await ordersHistoryPage.getOrderId())).toBeTruthy();
 });
 
-//test file will trigger parallel
+//test file will trigger parallel execution of tests in the file
 //individual tests in the file will run in sequence
 //npx allure generate ./allure-results --clean -o ./allure-report
