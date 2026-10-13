@@ -111,4 +111,6 @@ test("Child window Playwright test", async ({ browser }) => {
   await page.bringToFront();
 
   // await page.pause();
+
+  //adding assertion to verify the title of the page
 });
