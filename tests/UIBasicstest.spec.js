@@ -113,6 +113,7 @@ test("Child window Playwright test", async ({ browser }) => {
   // await page.pause();
 
   //adding assertion to verify the title of the page
+  // demo of pusing to git
 });
 
 // Login into  this application and grab its locators and create a test case to verify the title of the page.
