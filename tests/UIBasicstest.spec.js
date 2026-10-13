@@ -114,3 +114,10 @@ test("Child window Playwright test", async ({ browser }) => {
 
   //adding assertion to verify the title of the page
 });
+
+// Login into  this application and grab its locators and create a test case to verify the title of the page.
+
+// Navigate to https://rahulshettyacademy.com/loginpagePractise/");
+// enter username as "rahulshettyacademy" and password as "Learning@830$3mK2",
+// click on the sign-in button, and
+// then verify that the title of the page is "ProtoCommerce".
